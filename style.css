@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #f7f4ef; 
+  color: #333;
+  line-height: 1.6;
+}
+
+:root {
+  --primary: #0b5d4b; 
+  --gold: #c9a227;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+header .wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Scheherazade New", serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: var(--gold);
+}
+
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.page {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 3px solid var(--gold);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.page h1 {
+  font-family: "Scheherazade New", serif;
+  font-size: 2.2rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.page p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, var(--primary), #0f7f66);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.hero h2 {
+  font-family: "Scheherazade New", serif;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background: var(--gold);
+  color: black;
+  padding: 0.7rem 1.3rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background: #b6911e;
+}
+
+footer {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
