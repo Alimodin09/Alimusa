@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact — Alimusa</title>
+  <title>Contact — Alimusa Islamic Learning</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,15 +24,36 @@
 
   <main>
     <section class="page">
-      <h1>Contact Alimusa</h1>
-      <p>This page contains contact information for Alimusa.</p>
-      <!-- You can add email, phone, etc. later -->
+      <h1>Contact / Ask a Question</h1>
+      <p>
+        Do you have a question about Islam, Muslim culture, or this website?
+        You can send a message using the simple form below.
+      </p>
+
+      <form style="margin-top: 1.5rem; text-align:left; max-width:400px; margin-left:auto; margin-right:auto;">
+        <label for="name">Your Name</label><br />
+        <input id="name" type="text" name="name" style="width:100%; padding:0.5rem; margin:0.4rem 0 0.8rem; border-radius:6px; border:1px solid #ccc;" />
+
+        <label for="email">Your Email</label><br />
+        <input id="email" type="email" name="email" style="width:100%; padding:0.5rem; margin:0.4rem 0 0.8rem; border-radius:6px; border:1px solid #ccc;" />
+
+        <label for="message">Your Message</label><br />
+        <textarea id="message" name="message" rows="4" style="width:100%; padding:0.5rem; margin:0.4rem 0 1rem; border-radius:6px; border:1px solid #ccc;"></textarea>
+
+        <button type="submit" class="btn" style="border:none; cursor:pointer;">
+          Send Message
+        </button>
+      </form>
+
+      <p style="margin-top:1.5rem;">
+        For now, this form is for demonstration only as part of a basic HTML project.
+      </p>
     </section>
   </main>
 
   <footer>
     <div class="wrap">
-      <small>&copy; <span id="year"></span> Alimusa</small>
+      <small>&copy; <span id="year"></span> Alimusa Islamic Learning</small>
     </div>
   </footer>
 
