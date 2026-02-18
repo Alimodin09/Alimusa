@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Alimusa</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="content">
+      <div class="container">
+        <h1>My Projects</h1>
+        <p>Here are some of my projects:</p>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image" style="background: #667eea;"></div>
+            <h3>E-Commerce Website</h3>
+            <p>A website for an online store with product pages and shopping cart.</p>
+            <a href="#">View Project</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image" style="background: #f093fb;"></div>
+            <h3>Portfolio Page</h3>
+            <p>A simple portfolio website to showcase my work and skills.</p>
+            <a href="#">View Project</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image" style="background: #4facfe;"></div>
+            <h3>Blog Website</h3>
+            <p>A blog website with articles and a clean design.</p>
+            <a href="#">View Project</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image" style="background: #fa709a;"></div>
+            <h3>Restaurant Website</h3>
+            <p>A website for a restaurant with menu and contact information.</p>
+            <a href="#">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> My Portfolio</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

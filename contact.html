@@ -3,63 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact — Alimusa Islamic Learning</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
-
+  <title>Contact Me</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
-    <div class="wrap">
-      <h1>Alimusa</h1>
+    <div class="container">
+      <h1>My Portfolio</h1>
       <nav>
-        <a href="home.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="page">
-<<<<<<< HEAD
-      <h1>Contact Alimusa</h1>
-      <p>This page contains contact information for Alimusa.</p>
-=======
-      <h1>Contact / Ask a Question</h1>
-      <p>
-        Do you have a question about Islam, Muslim culture, or this website?
-        You can send a message using the simple form below.
-      </p>
+    <section class="content">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p>You can reach me at: hello@example.com</p>
 
-      <form style="margin-top: 1.5rem; text-align:left; max-width:400px; margin-left:auto; margin-right:auto;">
-        <label for="name">Your Name</label><br />
-        <input id="name" type="text" name="name" style="width:100%; padding:0.5rem; margin:0.4rem 0 0.8rem; border-radius:6px; border:1px solid #ccc;" />
+        <h2>Send Me a Message</h2>
+        <form>
+          <label>Your Name:</label><br />
+          <input type="text" name="name" /><br /><br />
 
-        <label for="email">Your Email</label><br />
-        <input id="email" type="email" name="email" style="width:100%; padding:0.5rem; margin:0.4rem 0 0.8rem; border-radius:6px; border:1px solid #ccc;" />
+          <label>Your Email:</label><br />
+          <input type="email" name="email" /><br /><br />
 
-        <label for="message">Your Message</label><br />
-        <textarea id="message" name="message" rows="4" style="width:100%; padding:0.5rem; margin:0.4rem 0 1rem; border-radius:6px; border:1px solid #ccc;"></textarea>
+          <label>Your Message:</label><br />
+          <textarea name="message" rows="5" cols="30"></textarea><br /><br />
 
-        <button type="submit" class="btn" style="border:none; cursor:pointer;">
-          Send Message
-        </button>
-      </form>
-
-      <p style="margin-top:1.5rem;">
-        For now, this form is for demonstration only as part of a basic HTML project.
-      </p>
->>>>>>> b6b723f41213a9152b69c8eb3fcd99d6aea66746
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
     </section>
   </main>
 
   <footer>
-    <div class="wrap">
-      <small>&copy; <span id="year"></span> Alimusa Islamic Learning</small>
+    <div class="container">
+      <p>&copy; <span id="year"></span> My Portfolio</p>
     </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
   </footer>
 
   <script>
